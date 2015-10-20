@@ -8,18 +8,25 @@ if ! zgen saved; then
 
     # plugins
     zgen oh-my-zsh plugins/aws
+    zgen oh-my-zsh plugins/common-aliases
+    zgen oh-my-zsh plugins/extract
     zgen oh-my-zsh plugins/git
-    zgen oh-my-zsh plugins/npm
-    zgen oh-my-zsh plugins/sudo
+    zgen oh-my-zsh plugins/gitignore
+    zgen oh-my-zsh plugins/git-prompt
     zgen oh-my-zsh plugins/sublime
+    zgen oh-my-zsh plugins/sudo
     zgen oh-my-zsh plugins/tmux
+    zgen oh-my-zsh plugins/z
 
+    zgen load zsh-users/zsh-completions
     zgen load zsh-users/zsh-syntax-highlighting
-    zgen load zsh-users/zsh-completions src
+    zgen load arzzen/calc.plugin.zsh
 
     # theme
     zgen oh-my-zsh themes/arrow
+
     # save all to init script
     zgen save
 fi
 
+alias er='x -r'

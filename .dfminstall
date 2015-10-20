@@ -1,3 +1,6 @@
-README.md skip
-.gitmodules skip
-.zgen recurse
+README.md	skip
+bootstrap.sh	skip
+.gitmodules	skip
+.gitignore	skip
+
+.zgen		recurse

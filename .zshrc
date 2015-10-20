@@ -1,3 +1,5 @@
+ZSH_TMUX_AUTOSTART=true
+
 source "${HOME}/.shellrc.load"
 source "${HOME}/.zgen/zgen.zsh"
 
@@ -30,3 +32,4 @@ if ! zgen saved; then
 fi
 
 alias er='x -r'
+

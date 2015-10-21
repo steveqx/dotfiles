@@ -1,6 +1,8 @@
 README.md	skip
+themes		skip
 bootstrap.sh	skip
 .gitmodules	skip
 .gitignore	skip
 
+.ssh		recurse
 .zgen		recurse

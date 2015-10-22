@@ -15,7 +15,6 @@ if ! zgen saved; then
     zgen oh-my-zsh plugins/git-prompt
     zgen oh-my-zsh plugins/sublime
     zgen oh-my-zsh plugins/sudo
-    zgen oh-my-zsh plugins/tmux
     zgen oh-my-zsh plugins/z
 
     zgen load zsh-users/zsh-completions
@@ -28,6 +27,4 @@ if ! zgen saved; then
     # save all to init script
     zgen save
 fi
-
-alias er='x -r'
 
